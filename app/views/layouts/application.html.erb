@@ -6,21 +6,45 @@
       <%= csp_meta_tag %>
       
       <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <style type="button">
+    <div 
+  </style>
       <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   
      <h1>Miss Rachal's Student Resources</h1>
-  
+    <hr />  
   </head>
 
   <body>
 
-    <div class="box1">
-      <h2>Computer Science & Programing</h2>
+    <div class="box btn-group">
+      <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <h2>Computer Science & Programing</h2><span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a href="#">Python Downloads</li>
+        <li><a href="#">Unit 2</li>
+        <li><a href="#">Unit 3</li>
+        <li><a href="#">Unit 4</li>
+        <li><a href="#">Unit 5</li>
+        <li><a href="#">Unit 6</li>
+        <li><a href="#">Unit 7</li>
+        <li><a href="#">Unit 8</li>
+      </ul>
     </div>
 
-    <div class="box2"></a>
-      <h3>English 1A_Sec 2</h3>
+    <div class="box btn-group">
+      <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <h2>English 1A_Sec 2</h2><span class="caret"></span> 
+      </button>
+      <ul class="dropdown-menu">
+        <li><a href="#">Graphic Organizers</li>
+        <li><a href="#">Helpful Sites</li>
+        <li><a href="#">Class Plan</li>
+      </ul>
     </div>
+
+</div>
 
 
     <%= yield %>
