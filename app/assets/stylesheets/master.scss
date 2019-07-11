@@ -17,15 +17,44 @@ h2{
   font-size: 22px;
 }
 
+.head{
+  background: url('bkg.jpg') no-repeat fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .box{
   float: left;
-    /*background: url('bkg.jpg') no-repeat fixed;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
   width: 42.5%;
   margin-left: 5%;
   margin-top: 1%;
 }
 
+/* A link not selected*/
+/*.a:link{
+  text-align: center;
+  text-decoration: none;
+  color: #FDD023;
+}
 
+/*A visited link */
+/*.a:visited{
+  color: #d9d9d9;
+  text-decoration: none;
+}*/
+/* A link with mouse over it */
+/*.a:hover{
+  text-transform: bold;
+  text-decoration: none;
+  color: white;
+}*/
+
+/* An active link */
+/*.a:active{
+  color: white;
+  text-decoration: none;
+}*/
+
+/*.dropdown-menu{
+  background-color: #461D7C;
+}*/
