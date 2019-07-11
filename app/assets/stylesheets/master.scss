@@ -1,7 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 h1{
-  color: #461D7C; 
-  font-family: 'Raleway', sans-serif; 
-  text-align: center; 
+  color: #461D7C;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+h2{
+  color:#5e27a5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+}
+.box{
+  float: left;
+  
+  width: 42.5%;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+header{
+  background: url('bkg.jpg') no-repeat center center fixed; 
+      -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
 }
