@@ -8,23 +8,39 @@ h1{
   padding-top: 10px;
 }
 h2{
-  color:#5e27a5;
+  color: white;
+  text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
 }
-.box{
+
+h3{
+  color: #461d7c;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+}
+
+.box1{
   float: left;
-  
+  background: url('bkg.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   width: 42.5%;
   margin-left: 5%;
   margin-top: 1%;
 }
 
-header{
-  background: url('bkg.jpg') no-repeat center center fixed; 
-      -webkit-background-size: cover;
+.box2{
+  float: left;
+  background: url('bkg2.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 600px;
+  width: 42.5%;
+  margin-left: 5%;
+  margin-top: 1%;
 }
