@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import "bootstrap";
 
+header{
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
 h1{
   color: #461D7C;
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
   text-align: center;
   font-weight: bold;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 5px;
   text-shadow:
     -1px -1px 0 #FDD023,
@@ -46,7 +53,9 @@ h5{
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
 }
+
 body{
+  font-family: "Raleway" sans-serif;
   background-image: url("bkg.jpg");
   background-repeat: no-repeat;
   background-position: fixed;
