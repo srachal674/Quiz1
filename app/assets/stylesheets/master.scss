@@ -6,8 +6,14 @@ h1{
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
   text-align: center;
+  font-weight: bold;
   padding-top: 10px;
   padding-bottom: 5px;
+  text-shadow:
+    -1px -1px 0 #FDD023,
+    1px -1px 0 #FDD023,
+    -1px 1px 0 #FDD023,
+    1px 1px 0 #FDD023;
 }
 
 h2{
@@ -17,19 +23,59 @@ h2{
   font-size: 22px;
 }
 
-.head{
-  background: url('bkg.jpg') no-repeat fixed;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+h3{
+  color: #461d7c;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+h4{
+  color: #461d7c;
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+h5{
+  color: #FDD023;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+}
+body{
+  background-image: url("bkg.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
+
+footer{
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 .box{
   float: left;
   width: 42.5%;
   margin-left: 5%;
   margin-top: 1%;
+  padding: 50px;
 }
 
+.flexbox{
+  display: inline-flex;
+  background-color: clear;
+}
+
+.table{
+  margin: 5px auto;
+  empty-cells: hide;
+}
 /* A link not selected*/
 /*.a:link{
   text-align: center;
@@ -54,7 +100,18 @@ h2{
   color: white;
   text-decoration: none;
 }*/
+.dropdown-menu{
+  width: 63%;
+  text-align: center;
+  /*background-color: #461D7C;*/å
+}
 
-/*.dropdown-menu{
-  background-color: #461D7C;
+/*.contact-me {
+  height: 350px;
+  background-color: #202020;
+  padding-top: 30px;
 }*/
+
+.p{
+  text-align: center;
+}

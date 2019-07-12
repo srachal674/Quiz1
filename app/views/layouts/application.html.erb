@@ -1,50 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head class="head">
+  <head>
     <title>Miss R's Resources</title>
       <%= csrf_meta_tags %>
       <%= csp_meta_tag %>
       
       <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
       <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  
-     <h1>Miss Rachal's Student Resources</h1>
+    
+    <h1>Miss Rachal's Student Resources</h1>
     <hr />  
   </head>
 
   <body>
 
-    <div class="box btn-group">
-      <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-      <h2>Computer Science & Programing</h2><span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu">
-        <li><a href="https://www.python.org/downloads/release/python-374/">Python for Windows download</a></li>
-        <li><a href="https://www.python.org/ftp/python/3.7.4/python-3.7.4-macosx10.9.pkg">Python for Mac download</a></li>
-        <li><a href="#">Unit 2</a></li>
-        <li><a href="#">Unit 3</a></li>
-        <li><a href="#">Unit 4</a></li>
-        <li><a href="#">Unit 5</a></li>
-        <li><a href="#">Unit 6</a></li>
-        <li><a href="#">Unit 7</a></li>
-        <li><a href="#">Unit 8</a></li>
-      </ul>
+    <table class="table">
+     <td><div class="box btn-group">
+        <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <h2>Computer Science & Programing</h2><span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="https://www.python.org/downloads/release/python-374/">Python for Windows download</a></li>
+          <li><a href="https://www.python.org/ftp/python/3.7.4/python-3.7.4-macosx10.9.pkg">Python for Mac download</a></li>
+          <li><a href="#">Unit 2</a></li>
+          <li><a href="#">Unit 3</a></li>
+          <li><a href="#">Unit 4</a></li>
+          <li><a href="#">Unit 5</a></li>
+          <li><a href="#">Unit 6</a></li>
+          <li><a href="#">Unit 7</a></li>
+          <li><a href="#">Unit 8</a></li>
+        </ul>
+      </div>
+      </td>
+      
+      <td></td>
+
+      <td><div class="box btn-group">
+        <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <h2>English 1A_Sec 2</h2><span class="caret"></span> 
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Graphic Organizers</a></li>
+          <li><a href="#">Helpful Sites</a></li>
+          <li><a href="#">Class Plan</a></li>
+        </ul>
+      </div>
+      </td>
+
     </div>
-
-    <div class="box btn-group">
-      <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-      <h2>English 1A_Sec 2</h2><span class="caret"></span> 
-      </button>
-      <ul class="dropdown-menu">
-        <li><a href="#">Graphic Organizers</a></li>
-        <li><a href="#">Helpful Sites</a></li>
-        <li><a href="#">Class Plan</a></li>
-      </ul>
-    </div>
-
-</div>
-
-
+   </table> 
     <%= yield %>
   </body>
+
+<footer>
+  <div class="table">
+    <td></td>
+
+    <td>
+        <p>
+          <h3>If you have questions contact me by email, phone, or sign up for a 1-1 session:</h3>
+        </p>
+    <td>    
+      <p><a href="https://srachal.youcanbook.me/" class="contact-link"><h4>1-1 Sign up</h4></a> &nbsp; &nbsp;<a href="mailto:srachal@insightaz.org" class="contact-link"><h4>srachal@insightaz.org</h4>
+        </a>
+      </p>
+    </td>
+
+    <td></td>
+  </div>
+    
+
+</footer>
 </html>
